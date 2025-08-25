@@ -22,7 +22,7 @@ We shall only consider $P$ as the increasing sequence of prime numbers for now.
 ## The Repo
 For now, this Repo producing a pandas dataframe according to 4 variables: $n_1$, $n_2$, $m$, and $P$. Let
 
-$$R = \{x \in P : n_1 \leq x \leq n_2 \} = \{p_1, p_2, \dots p_{|R|}\}.$$
+$$R = { x \in P : n_1 \leq x \leq n_2 \} = \{p_1, p_2, \dots p_{|R|} }.$$
 
 Then the dataframe is $m \times |R|$ where column $i$ shows the first $m$ elements of $S^P_{p_i}(n)$. Once, however, a repeated element is found, the subsequent entries are filled with a $0$.
 
